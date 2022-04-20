@@ -1,3 +1,21 @@
+/* 
+EDE6DB
+417D7A
+1D5C63
+1A3C40
+*/
+
 #navbar {
-  background: linear-gradient(rgb(51, 51, 51), transparent);
+  background-color: transparent;
+}
+
+#hero {
+  height: 850px;
+  background-image: url("./images/marita-kavelashvili-ugnrXk1129g-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.spacer {
+  height: 40%;
 }

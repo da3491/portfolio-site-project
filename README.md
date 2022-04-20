@@ -5,7 +5,6 @@ SiteMap
 1. NavBar
    -Home
    -Portfolio
-   -About me
    -Contact
 2. Hero
    -Image
