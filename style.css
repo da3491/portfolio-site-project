@@ -16,6 +16,35 @@ EDE6DB
   background-size: cover;
 }
 
+body {
+  background-color: #eee;
+}
+
 .spacer {
   height: 40%;
+}
+
+.text-purple {
+  color: #6610f2;
+}
+.fs-tiny {
+  font-size: 0.8rem;
+}
+
+.aspectRatioBox {
+  padding-top: calc(2 / 3 * 100%); /* aspect ratio 3:2 */
+  background-size: cover;
+  background-position: center;
+}
+
+.apple-clone-image {
+  background-image: url("./images/apple-clone-image.jpg");
+}
+
+.airbnb-clone-image {
+  background-image: url("./images/airbnb-news-clone-image.jpg");
+}
+
+.newsweek-clone-image {
+  background-image: url("./images/newsweek-clone-image.jpg");
 }
