@@ -16,6 +16,14 @@ EDE6DB
   background-size: cover;
 }
 
+#gallery h1 {
+  color: #2c5944;
+}
+
+#gallery-card {
+  border: 2px solid #2c5944 !important;
+}
+
 body {
   background-color: #eee;
 }
@@ -47,4 +55,39 @@ body {
 
 .newsweek-clone-image {
   background-image: url("./images/newsweek-clone-image.jpg");
+}
+
+/* hover effects */
+
+nav li a:hover,
+nav li a:active {
+  border-bottom: 2px solid black;
+}
+
+i.fa-html5:hover {
+  color: #dc3545;
+}
+
+i.fa-css3-alt:hover {
+  color: #0d6efd;
+}
+
+i.fa-git-alt:hover {
+  color: #198754;
+}
+
+i.fa-bootstrap:hover {
+  color: #6610f2;
+}
+
+i.fa-js:hover {
+  color: #ffc107;
+}
+
+i.fa-react:hover {
+  color: #0dcaf0;
+}
+
+#gallery-card:hover {
+  transform: scale(1.03);
 }

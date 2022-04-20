@@ -17,6 +17,7 @@ SiteMap
    -HTML
    -CSS
    -JS
+   -React
 5. Footer
    -Social Icons
    -Contact
