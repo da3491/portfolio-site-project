@@ -5,13 +5,17 @@ EDE6DB
 1A3C40
 */
 
+body {
+  background-color: #eee;
+}
+
 #navbar {
   background-color: transparent;
 }
 
 #hero {
   height: 850px;
-  background-image: url("./images/marita-kavelashvili-ugnrXk1129g-unsplash.jpg");
+  background-image: url("./images/hero-image.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -30,10 +34,6 @@ EDE6DB
 
 #footer-social {
   font-size: 2rem;
-}
-
-body {
-  background-color: #eee;
 }
 
 .spacer {
@@ -55,7 +55,7 @@ body {
 
 button.send-btn {
   width: 100px;
-  background-color: #198754;
+  color: #198754;
 }
 
 /* Images */

@@ -9,18 +9,22 @@ SiteMap
 2. Hero
    -Image
    -Headline
+   -Socials
 3. Technologies Banner
    -HTML
    -CSS
+   -Git
+   -Bootstrap
    -JS
    -React
 4. Project Gallery
    -Apple Clone
    -Newsweek Clone
-   -Airbnb News
+   -Airbnb News Clone
 5. Footer
-   -Social Icons
+   -About me
    -Contact
+   -Social Icons
 
 Specifications
 
