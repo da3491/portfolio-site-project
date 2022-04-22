@@ -24,6 +24,14 @@ EDE6DB
   border: 2px solid #2c5944 !important;
 }
 
+#footer {
+  background-color: #333;
+}
+
+#footer-social {
+  font-size: 2rem;
+}
+
 body {
   background-color: #eee;
 }
@@ -35,9 +43,22 @@ body {
 .text-purple {
   color: #6610f2;
 }
+
+.altcademy {
+  color: #4164e2;
+  text-decoration: none;
+}
+
 .fs-tiny {
   font-size: 0.8rem;
 }
+
+button.send-btn {
+  width: 100px;
+  background-color: #198754;
+}
+
+/* Images */
 
 .aspectRatioBox {
   padding-top: calc(2 / 3 * 100%); /* aspect ratio 3:2 */

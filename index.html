@@ -88,8 +88,8 @@
       <div id="gallery" class="container-xl">
         <h1 class="py-5 text-center">Portfolio</h1>
         <div class="row">
-          <div class="col-12 col-md-4 mb-3 bg-white">
-            <div id="gallery-card" class="border p-3">
+          <div class="col-12 col-md-4 mb-3 bg-white d-flex">
+            <div id="gallery-card" class="border p-3 align-self-stretch">
               <div class="d-flex justify-content-between py-2">
                 <h5 class="d-inline">Apple site clone</h5>
                 <div class="d-inline fs-tiny">
@@ -98,9 +98,10 @@
                 </div>
               </div>
               <div class="aspectRatioBox img-fluid apple-clone-image"></div>
-              <p>
-                An exercise of Altcademy to reproduce the Apple website, using
-                HTML and CSS.
+              <p class="pt-4">
+                An exercise of
+                <a class="altcademy" href="altcademy.com"> Altcademy</a> to
+                reproduce the Apple website, using HTML and CSS.
               </p>
             </div>
           </div>
@@ -115,9 +116,11 @@
                 </div>
               </div>
               <div class="aspectRatioBox img-fluid newsweek-clone-image"></div>
-              <p>
-                An exercise of Altcademy to reproduce the Newsweek website,
-                using HTML, CSS, and Bootstrap 3.
+              <p class="pt-4">
+                An exercise of
+                <a class="altcademy" href="altcademy.com"> Altcademy</a> to
+                reproduce the Newsweek website, using HTML, CSS, and Bootstrap
+                3.
               </p>
             </div>
           </div>
@@ -131,20 +134,69 @@
                   <span class="text-purple px-1">BS</span>
                 </div>
               </div>
-              <div class="aspectRatioBox img-fluid apple-clone-image"></div>
-              <p>
-                An exercise of Altcademy to reproduce the Airbnb News website,
-                using HTML, CSS, Bootstrap 4.
+              <div class="aspectRatioBox img-fluid airbnb-clone-image"></div>
+              <p class="pt-4">
+                An exercise of
+                <a class="altcademy" href="altcademy.com"> Altcademy</a> to
+                reproduce the Airbnb News website, using HTML, CSS, Bootstrap 4.
               </p>
             </div>
           </div>
         </div>
       </div>
-
-      <!-- <footer>
-        <i class="fa-brands fa-github-square"></i>
-        <i class="fa-brands fa-linkedin"></i>
-      </footer> -->
+      <footer id="footer">
+        <div class="container-xl mt-5">
+          <div class="row py-5">
+            <div class="col-12 col-md-6">
+              <h4 class="text-white text-center py-3">About</h4>
+              <p class="text-white mx-auto w-75">
+                My name is Drew, thanks for checking out my site! I've always
+                had an interest in development, until I decided to enroll in
+                <a class="altcademy" href="altcademy.com"> Altcademy</a> to
+                really pursue it as a career. I'm really looking forward to
+                learning all I can, working with great people, and creating
+                great experiences through my work and in my team.
+              </p>
+            </div>
+            <div class="col-12 col-md-6">
+              <h4 class="text-white text-center py-3">Contact</h4>
+              <form class="container-md">
+                <div class="row g-0">
+                  <label class="col-3 text-white text-start" for="name"
+                    >Name</label
+                  >
+                  <input class="col-9" type="text" />
+                </div>
+                <div class="row g-0 py-2">
+                  <label class="col-3 text-white text-start" for="email"
+                    >Email</label
+                  >
+                  <input class="col-9 p-0" type="email" />
+                </div>
+                <textarea
+                  class="w-100"
+                  name=""
+                  id=""
+                  cols="50"
+                  rows="5"
+                  placeholder="Reach out to me here"
+                ></textarea>
+                <div class="d-flex justify-content-end">
+                  <button class="btn send-btn" type="button">Send</button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div id="footer-social" class="d-flex justify-content-center">
+            <a class="px-2" href="github.com">
+              <i class="fa-brands fa-github-square text-white"></i
+            ></a>
+            <a class="px-2" href="linkedin.com">
+              <i class="fa-brands fa-linkedin text-white"></i
+            ></a>
+          </div>
+        </div>
+      </footer>
     </main>
   </body>
 </html>
